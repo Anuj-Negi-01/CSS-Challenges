@@ -1,0 +1,85 @@
+@media screen and (max-width: 1024px){
+    .menu-bar{
+       display: block;
+    }
+    .nav-link,  .nav-button-container{
+        display: none;
+    }
+    .image-box{
+        min-height: 120px;
+        min-width: 120px;
+    }
+    .lower-box{
+        display: none;
+    }
+    .cta-section{
+        max-width: 702px;
+        height: 578px;
+        margin: 64px auto;
+    }
+    .parent-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 702px;
+        margin-inline: auto;
+    }
+    .bento-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .card{
+        width: 100%;
+    }
+    footer{
+        max-width: 702px;
+        margin-inline: auto;
+        flex-direction: column-reverse; 
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    .right-footer-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .icons-container{
+        display: flex;
+        gap: 80px;
+    }
+}
+
+@media screen and (max-width: 1180px){
+    .upper-box .image-box:nth-child(2n + 1){
+        display: none;
+    }
+    .lower-box .image-box:nth-child(2n + 1){
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .hero-section{
+        justify-content: start;
+        align-items: start;
+        flex-wrap: wrap;
+    }
+    .icon-container{
+        display: none;
+    }
+    .buttons-container{
+        flex-wrap: wrap;
+    }
+    .primary-button, .secondary-button{
+        width: 100%;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    .desc{
+        font-size: 1.1rem;
+    }
+}

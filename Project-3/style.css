@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(144, 144, 144, 0.3);
+    font-family: "Smooch Sans", serif;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.nav-links{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    padding: 20px 40px;
+    overflow: hidden;
+}
+
+.shoe-container{
+    flex-basis: 45%;
+    overflow: hidden;
+}
+
+.shoe-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.nike{
+    font-size: 2rem;
+    font-weight: 500;
+    
+}
+
+.shoe-name{
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.desc{
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgba(128, 128, 128, 0.9); 
+    max-width: 500px;
+}
+
+.container{
+    max-width: 500px;
+}
+.size-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.size-text{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.sizes{
+    font-size: 1.2rem;
+    background-color: rgba(201, 100, 100, 0.434);
+    padding: 5px 12px;
+    margin-inline: 5px;
+    color: white
+}
+
+.quantity-container{
+    background-color: rgba(201, 100, 100, 0.434);
+    padding: 5px 8px;
+}
+
+.shymbol{
+    background-color: transparent;
+}
+
+.price{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.button{
+    background-color: rgba(201, 100, 100, 0.434);
+    padding: 10px 15px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.price-container{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}

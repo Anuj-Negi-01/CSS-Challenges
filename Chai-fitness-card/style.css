@@ -1,0 +1,152 @@
+/* Challenge CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin: 10px;
+}
+
+h1 {
+  color: rgb(216, 21, 21);
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: rgb(132, 125, 125);
+}
+
+.pricing-container {
+  display: flex;
+  gap: 80px;
+}
+
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 20px;
+  width: 300px;
+  height: 450px;
+  transition: all 0.2s ease-in;
+}
+
+.pricing-card:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 3px #474747;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.popular-tag {
+  position: absolute;
+  top: -15px;
+  left: 30%;
+  background-color: rgba(233, 233, 33, 0.984);
+  color: white;
+  padding: 2px 5px;
+  border-radius: 20px;
+}
+
+.price-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  background: rgb(83, 76, 76);
+  border-radius: 20px;
+  height: 80px;
+}
+
+.price {
+  color: rgb(156, 6, 6);
+  font-size: 1.5rem;
+}
+
+.period {
+  color: rgb(155, 137, 137);
+  font: 1.2rem;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-block: 20px;
+}
+
+.features li {
+  color: rgb(57, 56, 56);
+}
+
+.features li.disabled {
+  color: rgb(57, 56, 56, 0.5);
+}
+
+.join-btn {
+  padding: 10px 20px;
+  border: 2px solid rgb(156, 6, 6);
+  color: rgb(156, 6, 6);
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.beginner {
+  border-radius: 20px;
+  border: 2px solid rgb(38, 38, 38);
+}
+/* Custom Class Modifiers */
+.warrior {
+  position: relative;
+  border: 2px solid rgba(196, 11, 11, 0.781);
+  border-radius: 20px;
+}
+
+.champion {
+  border: 2px solid rgba(233, 233, 33, 0.984);
+  border-radius: 20px;
+}
+
+.champion .price {
+  color: rgba(233, 233, 33, 0.984);
+}
+
+.champion .join-btn {
+  color: rgba(233, 233, 33, 0.984);
+  border: 2px solid rgba(233, 233, 33, 0.984);
+}

@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bento-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.flex-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 20px 10px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image-container{
+    width: 350px;
+    height: 250px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-container img{
+    width: 500px;
+}
+
+.card-4{
+    grid-column-end: span 2;
+}
+
+.card-7{
+    grid-column-end: span 2;
+}
+
+.card-4 .image-container{
+    width: 500px;
+}
+
+.card-7 .image-container{
+    width: 500px;
+}
+
