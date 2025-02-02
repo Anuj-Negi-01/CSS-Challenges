@@ -1,0 +1,129 @@
+@media screen and (max-width: 1130px){
+    .nav-link{
+        display: none;
+    }
+    .login, .sign-up{
+        display: inline;
+    }
+    .container{
+        max-width: 1130px;
+        margin-inline: auto;
+        padding: 0 48px;
+    }
+    .main-container{
+        flex-direction: column;
+        padding: 32px 48px;
+        gap: 50px;
+        background-color: #000000;
+        color: white;
+        margin: 0 0;
+        width: 100%;
+    }
+    .main-heading{
+        font-size: 2.1rem;
+        font-weight: 700;
+    }
+    .option-container{
+        display: none;
+    }
+    .main-para{
+        font-size: 1.02rem;
+        margin-top: 20px;
+        font-weight: 400;
+    }
+    .location-input, .dropoff-input{
+        justify-content: start;
+        width: 100%;
+        padding: 15px 20px;
+        background-color: #dad9d9;
+        border-radius: 10px;
+        gap: 20px;
+    }
+    .date-time-section{
+        display: none;
+    }
+    .main-btn-dark{
+        background-color: #ffffff;
+        color: black;
+    }
+    .map{
+        display: none;
+    }
+    .main-right{
+        width: 100%;
+    }
+    .main-right img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .suggestion-section{
+        padding: 0 48px;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .card-container{
+        flex-wrap: wrap;
+        flex-basis: 100%;
+    }
+    .card{
+        width: 45%;
+    }
+    .login-section{
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+        gap: 30px;
+    }
+    .login-right-section{
+        width: 100%;
+    }
+    .login-right-section img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .login-left-section{
+        align-self: start;
+        width: 80%;
+    }
+    .qr-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .subfooter-contanier{
+        width: 100%;
+    }
+    .qr-card{
+        width: 100%;
+    }
+    .footer-contanier {
+        padding-block: 48px;
+    }
+    .footer-links-container{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 50px;
+    }
+    .main-left{
+        width: 100%;
+    }
+    .input-section{
+        width: 75%;
+    }
+    p, a{
+        font-size: 0.85rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.25rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="./assets/sqaure.svg" type="image/x-icon">
+    <title>Uber UI Clone</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="nav-container flex">
+        <div class="left-nav flex">
+          <a href="#" class="logo">uber</a>
+          <ul class="flex left-nav">
+            <li><a href="#" class="nav-link">Ride</a></li>
+            <li><a href="#" class="nav-link">Drive</a></li>
+            <li><a href="#" class="nav-link">Business</a></li>
+            <li><a href="#" class="nav-link">About</a></li>
+          </ul>
+        </div>
+        <div class="right-nav flex">
+          <ul class="flex right-nav">
+            <li>
+              <a href="#" class="nav-link"
+                ><i class="fa-solid fa-globe"></i
+                ><span class="lang">EN</span></a
+              >
+            </li>
+            <li><a href="#" class="nav-link">Help</a></li>
+            <li><a href="#" class="nav-link login">Log in</a></li>
+            <li><a href="#" class="nav-link sign-up">Sign up</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main-section -->
+    <main class="container flex main-container">
+      <div class="main-left flex">
+        <h1 class="main-heading">Go anywhere with uber</h1>
+        <div class="flex main-lower-container">
+          <div class="flex option-container">
+            <a href="#" class="flex car-option">
+              <i class="fa-solid fa-car"></i>
+              <p>Ride</p>
+            </a>
+            <a href="#" class="flex courier-option">
+              <i class="fa-solid fa-box"></i>
+              <p>Courier</p>
+            </a>
+          </div>
+          <p class="main-para">Request a ride, hop in, and go.</p>
+          <div class="input-section flex">
+            <div class="location-input flex">
+              <img src="./assets/dot.svg" alt="" />
+              <input type="text" placeholder="Pickup location" />
+              <img src="./assets/arrow.svg" alt="" />
+            </div>
+            <div class="dropoff-input flex">
+                <img src="./assets/sqaure.svg" alt="">
+                <input type="text" placeholder="Dropoff location">
+            </div>
+          </div>
+          <div class="date-time-section flex">
+                <div class="flex date-container">
+                    <img src="./assets/calendar.svg" alt="">
+                    <input type="text" name="date" id="date" placeholder="Today">
+                </div>
+                <div class="flex time-container">
+                    <img src="./assets/clock.svg" alt="">
+                    <input type="text" name="time" id="time" placeholder="Now">
+                </div>
+          </div>
+          <button class="main-button main-btn-dark">See prices</button>
+        </div>
+      </div>
+      <div class="main-right">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.467063922473!2d72.9303366726859!3d19.13102193937592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1738151168423!5m2!1sen!2sin"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" class="map"
+        ></iframe>
+        <img src="./assets/Ride-with-Uber.webp" alt="">
+      </div>
+    </main>
+
+
+    <!-- suggestion section -->
+     <section class="container suggestion-section flex">
+        <h2 class="suggestion-heading">Suggestions</h2>
+        <div class="card-container flex">
+          <a class="card flex" href="#">
+            <div class="card-left flex">
+              <h3 class="card-heading">Ride</h3>
+              <p class="card-desc">Go anywhere with Uber. Request a ride, hop in, and go.</p>
+              <button class="secondary-button">Details</button>
+            </div>
+            <div class="card-right">
+              <img src="./assets/car.png" alt="">
+            </div>
+          </a>
+          <a class="card flex" href="#">
+            <div class="card-left flex">
+              <h3 class="card-heading">Courier</h3>
+              <p class="card-desc">Uber makes same-day item delivery easier than ever.</p>
+              <button class="secondary-button">Details</button>
+            </div>
+            <div class="card-right">
+              <img src="./assets/courier-box.png" alt="">
+            </div>
+          </a>
+          <a class="card flex" href="#">
+            <div class="card-left flex">
+              <h3 class="card-heading">Reserve</h3>
+              <p class="card-desc">Reserve your ride in advance so you can relax on the day of your trip.</p>
+              <button class="secondary-button">Details</button>
+            </div>
+            <div class="card-right">
+              <img src="./assets/reserve_clock.png" alt="">
+            </div>
+          </a>
+        </div>
+     </section>
+
+     <!-- Login section -->
+      <section class="container login-section flex">
+        <div class="login-left-section flex">
+          <h2 class="login-heading">Log in to see your recent activity</h2>
+          <p class="login-desc">View past trips, tailored suggestions, support resources, <br> and more.</p>
+          <div class="button-container flex">
+            <a href="#" class="main-button">Login to your account</a>
+            <a href="#" class="sign-up-qus">Don’t have an Uber account? Sign up</a>
+          </div>
+        </div>
+        <div class="login-right-section">
+          <img src="./assets/Airport-Fall.webp" alt="">
+        </div>
+      </section>
+
+      <section class="container earner-login login-section flex">
+        <div class="login-right-section">
+          <img src="./assets/earner-illustra.webp" alt=""> 
+        </div>
+        <div class="login-left-section flex">
+          <h2 class="login-heading">Drive when you want, make what you need</h2>
+          <p class="login-desc">View past trips, tailored suggestions, support resources, <br>
+            and more.</p>
+          <div class="earner-btn-container flex">
+            <a href="#" class="main-button">Get Started</a>
+            <a href="#" class="sign-up-qus-earner sign-up-qus">Don’t have an Uber account? Sign up</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3rd section -->
+      <section class="container login-section flex">
+        <div class="login-left-section flex">
+          <h2 class="login-heading square-heading">The Uber you know, reimagined for business</h2>
+          <p class="login-desc">Uber for Business is a platform for managing global rides and meals, and local deliveries, for companies of any size.</p>
+          <div class="earner-btn-container flex">
+            <a href="#" class="main-button">Get Started</a>
+            <a href="#" class="sign-up-qus-earner sign-up-qus">Check out our solutions</a>
+          </div>
+        </div>
+        <div class="login-right-section">
+          <img src="./assets/u4b-square.webp" alt="">
+        </div>
+      </section>
+
+      <!-- renting section -->
+      <section class="container earner-login login-section flex">
+        <div class="login-right-section">
+          <img src="./assets/fleet-management.webp" alt=""> 
+        </div>
+        <div class="login-left-section flex">
+          <h2 class="login-heading fleet-heading">Make money by renting out your car</h2>
+          <p class="login-desc">Connect with thousands of drivers and earn more per week with Uber’s free fleet management tools.</p>
+          <div class="earner-btn-container flex">
+            <a href="#" class="main-button">Get Started</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="subfooter">
+        <div class="container subfooter-contanier flex">
+          <h3 class="qr-heading">It’s easier in the apps</h3>
+          <div class="qr-container flex">
+            <div class="qr-card flex">
+              <div class="left-section">
+                <img src="./assets/Final-Download-Uber-App.webp" alt="">
+              </div>
+                <div>
+                  <h3 class="download-text">Download the uber app</h3>
+                  <p>Scan to download</p>
+                </div>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="qr-card flex">
+              <div class="left-section">
+                <img src="./assets/Final-Download-Uber-App.webp" alt="">
+              </div>
+                <div>
+                  <h3 class="download-text">Download the driver app</h3>
+                  <p>Scan to download</p>
+                </div>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+       <footer class="footer">
+          <div class="container footer-contanier flex">
+            <a href="#" class="logo">uber</a>
+            <a href="#" class="footer-text">Visit help center</a>
+            <div class="flex footer-links-container">
+              <div class="width-50">
+                <h4 class="footer-heading">Company</h4>
+                <ul class="flex footer-link-container">
+                  <li><a href="#" class="nav-link-footer">Our offerings</a></li>
+                  <li><a href="#" class="nav-link-footer">Newsroom</a></li>
+                  <li><a href="#" class="nav-link-footer">Investors</a></li>
+                  <li><a href="#" class="nav-link-footer">Blog</a></li>
+                  <li><a href="#" class="nav-link-footer">Careers</a></li>
+                </ul>
+              </div>
+              <div class="width-50">
+                <h4 class="footer-heading">Products</h4>
+                <ul class="flex footer-link-container">
+                  <li><a href="#" class="nav-link-footer">Ride</a></li>
+                  <li><a href="#" class="nav-link-footer">Drive</a></li>
+                  <li><a href="#" class="nav-link-footer">Deliver</a></li>
+                  <li><a href="#" class="nav-link-footer">Uber for Business</a></li>
+                  <li><a href="#" class="nav-link-footer">Uber Freight</a></li>
+                  <li><a href="#" class="nav-link-footer">Gift cards</a></li>
+                </ul>
+              </div>
+              <div class="width-50">
+                <h4 class="footer-heading">Global citizenship</h4>
+                <ul class="flex footer-link-container">
+                  <li><a href="#" class="nav-link-footer">Safety</a></li>
+                  <li><a href="#" class="nav-link-footer">Diversity and Inclusion</a></li>
+                  <li><a href="#" class="nav-link-footer">Sustainability</a></li>
+                </ul>
+              </div>
+              <div class="width-50">
+                <h4 class="footer-heading">Travel</h4>
+                <ul class="flex footer-link-container">
+                  <li><a href="#" class="nav-link-footer">Reserve</a></li>
+                  <li><a href="#" class="nav-link-footer">Airports</a></li>
+                  <li><a href="#" class="nav-link-footer">Cities</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+       </footer>
+    <!-- cdn -->
+    <script
+      src="https://kit.fontawesome.com/e8857636a9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
